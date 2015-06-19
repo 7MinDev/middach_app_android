@@ -1,85 +1,8 @@
 # Middach App
 
-[![Build Status](https://travis-ci.org/AndroidBootstrap/com-sevenmindev-middach.svg?branch=master)](https://travis-ci.org/AndroidBootstrap/com-sevenmindev-middach)
+[![Build Status](https://travis-ci.org/7MinDev/middach_app_android.svg?branch=master)](https://travis-ci.org/7MinDev/middach_app_android)
 
 This repository contains the source code for the [Middach](http://www.androidbootstrap.com/)
-Android app available from [Google Play](https://play.google.com/store/apps/details?id=com.sevenmindev.middach).
-
-Please see the [issues](https://github.com.sevenmindev.middach/com-sevenmindev-middach/issues) section
-to report any bugs or feature requests and to see the list of known issues.
-
-Have a questions about Middach? Ask away on the [com-sevenmindev-middach discussion forum](https://groups.google.com/forum/#!forum/com-sevenmindev-middach).
-
-<a href="https://play.google.com/store/apps/details?id=com.sevenmindev.middach" alt="Download from Google Play">
-  <img src="http://f.cl.ly/items/3V0K1s1i402W0c193v2w/Image%202013.07.08%201%3A45%3A25%20PM.png">
-</a>
-
-<a href="https://play.google.com/store/apps/details?id=com.sevenmindev.middach" alt="Download from Google Play">
-  <img src="http://f.cl.ly/items/0e3T2F2x3M0K2l1X0A0u/Image%202013.07.08%201%3A46%3A09%20PM.png">
-</a>
-
-## HOW TO
-Learn how to develop with IntelliJ and Gradle.
-
-## Authentication
-Log into this demo app with the following credentials:
-
-user: demo@androidbootstrap.com
-
-password: android
-
-
-## Generating your Bootstrap App
-Why generate? Simple ... renaming files, folders, copy and pasting is SUPER error prone and well... it sucks overall.
-This can easily take a few days with debugging if you run into issues and perform a lot of typo's.
-Using the generator on [AndroidBootstrap.com](http://www.androidbootstrap.com) you can generate your application
-with your application name as well as the package (and folder structure) that you want to work with.
-
-As an example, you know that you want your app name and package to the following:
-
-  - *App Name*: Notify
-  - *Package Name*: com.notify.app.mobile
-
-After generating the app on [AndroidBootstrap.com](http://www.androidbootstrap.com) the folder structure of the source
-code for the app will change:
-
-  - From: __com.sevenmindev.middach__
-  - To: __com/notify/app/mobile__
-
-At that point all the source files that were located in ____com.sevenmindev.middach__ will be moved to the
-new folder __com/notify/app/mobile__.
-
-All import statments that reference the old resources (__R.com.sevenmindev.middach.R__) will now be renamed
-to the correct package. The artifact id's in the *pom.xml* (and various other places) will be replaced. The App Name
-will be replaced in the strings/etc.
-
-The end result is that you will be given a zip file with the correct structure. Open the zip and then execute the
-*./gradlew* command and your app should be ready for development.
-
-Enjoy!
-
-The application
-
-## License
-
-* [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
-
-
-Copyright 2014 Donn Felker
-Copyright 2014 GitHub Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
 
 ## Building
 
@@ -102,12 +25,6 @@ already have the version from the Android Market installed.  This is standard
 Android security as it it won't let you directly replace an app that's been
 signed with a different key.  Manually uninstall Middach from your device and
 you will then be able to install your own built version.
-
-## Building in Eclipse
-
-Why are you using Eclipse still? :)
-Please use Android Studio, we do not support Eclipse.
-
 
 ## Acknowledgements
 
@@ -139,11 +56,6 @@ and uses many great open-source libraries from the Android dev community:
   POJO's for use in the app.
 
 
-## Contributors
-Thank you to all the [contributors](http://www.github.com.sevenmindev.middach/com-sevenmindev-middach/contributors) on
-this project. Your help is much appreciated.
-
-
 ## Contributing
 
 Please fork this repository and contribute back using
@@ -154,3 +66,23 @@ language translations, unit/integration tests are welcomed and appreciated
 but will be thoroughly reviewed and discussed.
 
 I hope this helps you in building your next android app.
+
+## License
+
+* [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+
+
+Copyright 2014 Donn Felker
+Copyright 2014 GitHub Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
